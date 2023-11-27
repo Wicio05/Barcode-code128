@@ -129,6 +129,8 @@ int main(int argc, char** argv)
 
     code.setImgPadding(p);
 
+    code.encodeCode128();
+
     //get encoded code
     std::vector<int> out = code.getEncoded();
 
